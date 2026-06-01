@@ -1,0 +1,21 @@
+{
+  "name": "kitface-promo-video",
+  "version": "1.0.0",
+  "description": "KitFace.app promotional video built with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render KitFacePromo out/kitface-promo.mp4",
+    "render:hq": "remotion render KitFacePromo out/kitface-promo-hq.mp4 --crf=12"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.471",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.471"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.30",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}
