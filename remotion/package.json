@@ -5,7 +5,8 @@
   "scripts": {
     "start": "remotion studio",
     "render": "remotion render KitFacePromo out/kitface-promo.mp4",
-    "render:hq": "remotion render KitFacePromo out/kitface-promo-hq.mp4 --crf=12"
+    "render:hq": "remotion render KitFacePromo out/kitface-promo-hq.mp4 --crf=12",
+    "screenshots": "node scripts/screenshot-kitface.js"
   },
   "dependencies": {
     "@remotion/cli": "4.0.471",
